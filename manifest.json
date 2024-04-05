@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "EzReadz",
+  "version": "1.0",
+  "description": "Project for CS545",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+    }
+  },
+  "permissions": ["activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
+
