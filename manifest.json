@@ -4,13 +4,13 @@
   "version": "1.0",
   "description": "Project for CS545",
   "action": {
-    "default_popup": "popup.html",
-    "default_icon": {
-    }
+    "default_popup": "popup.html"
   },
-  "permissions": ["activeTab"],
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
   "background": {
     "service_worker": "background.js"
   }
 }
-
